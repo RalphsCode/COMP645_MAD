@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Movie Database - Ralph Godkin</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <h1>
+        Movie Database
+    </h1>
+    <form id="frmMovies" class="frmMovies">
+        <label for = "inMovieName" class="custom_label">Movie Title:</label>
+        <input type="text" placeholder="Movie Name" id="inMovieName"><br>
+        <label for = "inMovieYear" class="custom_label">Year Released:</label>
+        <input type="number" placeholder="2019" id="inMovieYear"><br>
+        <label for = "inMovieNote" class="custom_label">Movie Description:</label>
+        <input type="textarea" placeholder="Movie comments" id="inMovieNote"><br>
+        <label for="inMovieRating" class="custom_label">Rating:</label>
+        <input type="range" id="inMovieRating" min="0" max="5" step="1" value="1"><br>
+        <input type="reset" value="Clear" class="button">
+        <input type="submit" value="Save Movie" class="button">
+        </form>
+    <p></p>
+    <form id="frmGetMovie" class="frmMovies">
+        <input type="submit" class="button" value="Random Movie">
+    </form>
+    <p></p>
+    <div id="random_movie">
+    </div>
+
+<script src='script.js'></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* Style the page */
+body {
+    background-color: lightblue;
+    color: navy;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the movies form */
+.frmMovies {
+    max-width: 500px;
+    padding: 1em;
+    background-color: aliceblue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Style form labels */
+.custom_label {
+    float: left;
+    width: 150px;
+}
+
+/* Style the Get Movie results */
+.getMovie {
+    max-width: 500px;
+    padding: 1em;
+    background-color:antiquewhite;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+}
